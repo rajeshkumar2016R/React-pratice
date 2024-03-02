@@ -1,0 +1,31 @@
+.formInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.formInput form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+}
+
+.formInput input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.formInput select {
+    margin-bottom: 10px;
+}
+
+.formInput .checkedbox {
+    margin-bottom: 10px;
+}

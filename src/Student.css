@@ -1,0 +1,17 @@
+.student-component{
+    background-color: orangered;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+}
+.student-component h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.student-component h4{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.student-component h6{
+    font-size: 20px;
+}
