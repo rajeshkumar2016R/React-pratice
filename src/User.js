@@ -9,7 +9,6 @@ const User = () => {
     return(
         <div className="count">
             <h2>{data}</h2>
-
             <button onClick={nameChange}> Click Me!</button>
         </div>
     )

@@ -4,7 +4,6 @@
     flex-wrap: wrap;
 }
 .App h1{
-    /* color: orangered; */
     padding: 20px;
     font-size: 40px;
 }
@@ -16,4 +15,6 @@ button{
     cursor: pointer;
     background: orangered;
     color: white;
+    margin-right: 10px;
+    border: 2px solid white;
 }

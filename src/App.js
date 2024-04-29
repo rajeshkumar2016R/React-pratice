@@ -5,11 +5,17 @@ import InputBox from './InputBox';
 import ShowHideElement from './ShowHideElement';
 import './App.css';
 import FormValidation from './FormValidation';
+import Profile from './Profile';
+import Effect from './Effect';
+import ArrayList from './ArrayList';
+import NestedArray from './NestedArray';
+import PureComponen from './PureComponen';
+import Usememo from './Usememo';
 
 function App() {
-  const [name, seName] = useState("world")
+  const [name, setName] = useState("world")
   const nameHandler = () => {
-    seName("Raja")
+    setName("Raja")
   }
   return (
     <div className="App">
@@ -27,10 +33,14 @@ function App() {
       <button onClick={nameHandler}>Update Name</button>
 
       <InputBox />
-
       <ShowHideElement />
-
       <FormValidation/>
+      <Profile />
+      <Effect />
+      <ArrayList/>
+      <NestedArray /> 
+      <PureComponen />
+      <Usememo/>
     </div>
   );
 }
