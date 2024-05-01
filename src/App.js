@@ -11,6 +11,8 @@ import ArrayList from './ArrayList';
 import NestedArray from './NestedArray';
 import PureComponen from './PureComponen';
 import Usememo from './Usememo';
+import RouteSetup from './RouteSetUp/RouteSetup';
+import DynamicRouting from './DynamicRouting/DynamicRouting';
 
 function App() {
   const [name, setName] = useState("world")
@@ -41,6 +43,8 @@ function App() {
       <NestedArray /> 
       <PureComponen />
       <Usememo/>
+      <RouteSetup />
+      <DynamicRouting />
     </div>
   );
 }
